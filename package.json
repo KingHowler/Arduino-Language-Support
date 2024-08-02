@@ -1,5 +1,5 @@
 {
-  "name": "Arduino-Language-Support",
+  "name": "arduino_language_support",
   "displayName": "Arduino Language Support",
   "description": "Language support extension to allow proper editing and programming of .ino files",
   "version": "0.0.1",
@@ -7,19 +7,38 @@
     "vscode": "^1.92.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Themes"
   ],
   "contributes": {
-    "languages": [{
-      "id": "ino",
-      "aliases": ["Arduino", "ino"],
-      "extensions": [".ino",".h",".cpp"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "ino",
-      "scopeName": "source.arduino",
-      "path": "./syntaxes/ino.tmLanguage.json"
-    }]
+    "themes": [
+      {
+        "label": "Arduino IDE Light",
+        "uiTheme": "vs",
+        "path": "./themes/arduino-ide-light.json"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ino",
+        "aliases": [
+          "Arduino",
+          "ino"
+        ],
+        "extensions": [
+          ".ino",
+          ".h",
+          ".cpp"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ino",
+        "scopeName": "source.ino",
+        "path": "./syntaxes/ino.tmLanguage.json"
+      }
+    ]
   }
 }

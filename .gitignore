@@ -4,3 +4,4 @@ node_modules
 CHANGELOG.md
 vsc-extension-quickstart.md
 .vscodeignore
+buffer.txt
