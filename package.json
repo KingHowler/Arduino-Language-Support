@@ -1,11 +1,21 @@
 {
-  "name": "arduino_language_support",
+  "publisher": "MUmarShahbaz",
+  "name": "als",
+  "icon": "images/icon.jpg",
+  "license": "MIT",
   "displayName": "Arduino Language Support",
   "description": "Language support extension to allow proper editing and programming of .ino files",
-  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KingHowler/Arduino-Language-Support"
+  },
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.92.0"
   },
+  "extensionDependencies": [
+    "ms-vscode.cpptools"
+  ],
   "categories": [
     "Programming Languages",
     "Themes"
@@ -16,6 +26,11 @@
         "label": "Arduino IDE Light",
         "uiTheme": "vs",
         "path": "./themes/arduino-ide-light.json"
+      },
+      {
+        "label": "Arduino IDE Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arduino-ide-dark.json"
       }
     ],
     "languages": [
@@ -39,6 +54,15 @@
         "scopeName": "source.ino",
         "path": "./syntaxes/ino.tmLanguage.json"
       }
+    ],
+    "keywords": [
+      "vscode",
+      "extension",
+      "arduino",
+      "ide",
+      "theme",
+      "language",
+      "support"
     ]
   }
 }

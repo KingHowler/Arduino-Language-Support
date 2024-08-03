@@ -3,29 +3,29 @@
     "type": "dark",
     "colors": {
         // Editor
-        "editor.background": "#1E1E1E", // Dark background
-        "editor.foreground": "#D4D4D4", // Light gray foreground text
-        "editor.lineHighlightBackground": "#2D2D2D", // Slightly lighter gray for current line highlight
-        "editorCursor.foreground": "#FFFFFF", // White cursor
-        "editor.selectionBackground": "#264F78", // Dark blue for selected text background
-        "editor.selectionHighlightBackground": "#264F78", // Same dark blue for text with the same content as the selection
-        "editor.wordHighlightBackground": "#3A3D41", // Dark gray for highlighted word background
-        "editor.wordHighlightStrongBackground": "#4B4E51", // Slightly lighter gray for occurrences of a symbol under the cursor
-        "editor.findMatchBackground": "#515C6A", // Dark gray for find match highlight
-        "editor.findMatchHighlightBackground": "#3A3D41", // Same dark gray for other find match highlights
-        "editor.findRangeHighlightBackground": "#3A3D41", // Same dark gray for find range highlights
-        "editorBracketMatch.background": "#515C6A", // Dark gray for matching brackets background
-        "editorBracketMatch.border": "#D4D4D4", // Light gray border for matching brackets
-        "editorWhitespace.foreground": "#3B3B3B", // Dark gray for whitespace
-        "editorIndentGuide.background": "#404040", // Dark gray for indent guides
-        "editorLineNumber.foreground": "#858585", // Gray for line numbers
-        "editorGutter.background": "#1E1E1E", // Dark background for gutter
-        "editorGutter.foreground": "#858585", // Gray for gutter foreground
-        "editorLink.activeForeground": "#3794FF", // Bright blue for active links
-        "editorError.foreground": "#F48771", // Light red for errors
-        "editorWarning.foreground": "#CCA700", // Orange for warnings
-        "editorInfo.foreground": "#3794FF", // Bright blue for informational messages
-        "editorHint.foreground": "#4FC1FF", // Light blue for hints
+        "editor.background": "#1E1E1E",
+        "editor.foreground": "#D4D4D4",
+        "editor.lineHighlightBackground": "#2D2D2D",
+        "editorCursor.foreground": "#FFFFFF",
+        "editor.selectionBackground": "#264F78",
+        "editor.selectionHighlightBackground": "#264F78",
+        "editor.wordHighlightBackground": "#3A3D41",
+        "editor.wordHighlightStrongBackground": "#4B4E51",
+        "editor.findMatchBackground": "#515C6A",
+        "editor.findMatchHighlightBackground": "#3A3D41",
+        "editor.findRangeHighlightBackground": "#3A3D41",
+        "editorBracketMatch.background": "#515C6A",
+        "editorBracketMatch.border": "#D4D4D4",
+        "editorWhitespace.foreground": "#3B3B3B",
+        "editorIndentGuide.background": "#404040",
+        "editorLineNumber.foreground": "#858585",
+        "editorGutter.background": "#1E1E1E",
+        "editorGutter.foreground": "#858585",
+        "editorLink.activeForeground": "#3794FF",
+        "editorError.foreground": "#F48771",
+        "editorWarning.foreground": "#CCA700",
+        "editorInfo.foreground": "#3794FF",
+        "editorHint.foreground": "#4FC1FF",
         // Activity Bar
         "activityBar.background": "#339999",
         "activityBar.foreground": "#FFFFFF",
