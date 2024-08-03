@@ -30,6 +30,3 @@ If not set by default, click on the language mode button in the status bar.<br> 
 That will open this menu:<br>
 ![Language Mode Menu](images/screenshots/Screenshot%20(6).png)<br>
 Click on Arduino to use it or, click on "Configure File Association for '.ino'" and then click on Arduino to set it up permanently
-
-## [Github Repository link](https://github.com/KingHowler/Arduino-Language-Support)
-## [My Github Profile](https://www.github.com/KingHowler)
