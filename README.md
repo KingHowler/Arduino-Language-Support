@@ -8,14 +8,16 @@ However the following issues arose which convinced me to make my own extension f
 <br>
 <br>
 Using "C++" as language mode for .ino files
-![.ino with C++](images/screenshots/Screenshot%20(7).png)
+
+![.ino with C++](/images/screenshots/Screenshot(7).png)
 
 ## What's wrong with Microsoft's Arduino extension?
 By default, "arduino output" does't use Syntax Highlighting which makes it difficult to edit/create programs as it becomes confusing to navigate through it, and monotonus enough to make a person quit.
 <br>
 <br>
 Using "arduino-output" as language mode for .ino files
-![.ino with arduino-output](images/screenshots/Screenshot%20(8).png)
+
+![.ino with arduino-output](/images/screenshots/Screenshot(8).png)
 
 ## What of the other extensions?
 There was one certain extension that I took a liking to but the themes that came along with it didn't match the original themes of the Arduino IDE, though it is somewhat similar.
@@ -33,14 +35,14 @@ I am also thinking about adding my own linter but that is something I won't be d
 
 ## Themes
 ### Arduino IDE Light
-![Homepage](images/screenshots/Screenshot%20(4).png)
-![Editor](images/screenshots/Screenshot%20(2).png)
+![Homepage](/images/screenshots/Screenshot(4).png)
+![Editor](/images/screenshots/Screenshot(2).png)
 ### Arduino IDE Dark
-![Homepage](images/screenshots/Screenshot%20(5).png)
-![Editor](images/screenshots/Screenshot%20(1).png)
+![Homepage](/images/screenshots/Screenshot(5).png)
+![Editor](/images/screenshots/Screenshot(1).png)
 
 ## Configure Language
 If not set by default, click on the language mode button in the status bar.<br> It is most likely in the bottom right, with either "C++" or "Plain Text" written on it.
 That will open this menu:<br>
-![Language Mode Menu](images/screenshots/Screenshot%20(6).png)<br>
+![Language Mode Menu](/images/screenshots/Screenshot(6).png)<br>
 Click on Arduino to use it or, click on "Configure File Association for '.ino'" and then click on Arduino to set it up permanently

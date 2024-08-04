@@ -2,7 +2,15 @@
 
 All notable changes to the "Arduino Language Support" extension will be documented in this file.
 
+## Unreleased
+- v2.0.0
+  - Added
+    - .ino file linter
+
 ## Released
+- v1.0.3
+  - Fixed
+    - Screenshot display issue
 - v1.0.2
   - Modified
     - License : Apodted Apache-2.0
