@@ -2,14 +2,14 @@
   "publisher": "MUmarShahbaz",
   "name": "als",
   "icon": "images/icon.jpeg",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "displayName": "Arduino Language Support",
   "description": "Language support extension to allow proper editing and programming of .ino files",
   "repository": {
     "type": "git",
     "url": "https://github.com/KingHowler/Arduino-Language-Support"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.92.0"
   },
