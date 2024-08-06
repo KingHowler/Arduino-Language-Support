@@ -1,6 +1,6 @@
 # Arduino Language Support for VS Code
 ## Why?
-I am a robotics enthusiast and, on one certain ocassion, wanted to edit my arduino project in Visual Studio Code.
+I am a robotics enthusiast and, on one certain occasion, wanted to edit my Arduino project in Visual Studio Code.
 
 However the following issues arose which convinced me to make my own extension for it.
 - When using C++ as the language mode for using .ino files, it doesn't recognize any of the arduino specific functions and treats them as an error.
@@ -12,7 +12,7 @@ Using "C++" as language mode for .ino files
 ![.ino with C++](/images/screenshots/Screenshot(7).png)
 
 ## What's wrong with Microsoft's Arduino extension?
-By default, "arduino output" does't use Syntax Highlighting which makes it difficult to edit/create programs as it becomes confusing to navigate through it, and monotonus enough to make a person quit.
+By default, "arduino output" doesn't use Syntax Highlighting which makes it difficult to edit/create programs as it becomes confusing to navigate through it, and monotonous enough to make a person quit.
 <br>
 <br>
 Using "arduino-output" as language mode for .ino files

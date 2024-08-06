@@ -9,9 +9,9 @@
     "type": "git",
     "url": "https://github.com/KingHowler/Arduino-Language-Support"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
-    "vscode": "^1.92.0"
+    "vscode": "^1.43.0"
   },
   "extensionDependencies": [
     "ms-vscode.cpptools"
